@@ -14,6 +14,6 @@ Well, lucky you are! ***Beer drinker*** will exactly serve this purpose:
 
 You enter the beers you want to drink and their price, and *Beer Drinker* will output the best beer regarding the alcohol / price ratio. Handy, isn't it?    
 
-Have a look [here](http://qualiastudio.fr/beerdrinker)!
+Have a look [here](http://qualiastudio.fr/beer_drinker)!
 
 
