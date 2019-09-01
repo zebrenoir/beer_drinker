@@ -8,7 +8,7 @@ You really want to get drunk tonight.
 Only problem: when your hand reaches your pocket, you realize that you only have
 a few pounds left (or dollars or euros or whatever, come on!).  
 Therefore, you will have to be strategic when you order your beers.  
-Not only you cannot afford a lot of beers, but the few you will drink need to get you drunk.    
+Not only you cannot afford a lot of beers, but the few you will drink need to get you drunk effectively.    
 
 Well, lucky you are! ***Beer drinker*** will exactly serve this purpose:    
 
