@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Beer Drinker</title>
+        <style type="text/css">
+
+        @font-face {
+            font-family: "Brandon Grotesque";
+            src: url("Brandon_med.otf");
+        }
+
+        body {
+            font-family: "brandon grotesque", sans-serif;
+            background-color: #322E4C;
+            color: white;
+            margin: 25px 50px 50px 20px;
+            width: 200px;
+        }
+
+        img {
+            margin-bottom: 20px;
+            position: relative;
+            left: 10px;
+        }
+   
+        #fieldset1 {
+            width: 175px;
+            margin-bottom: 30px;
+        }
+
+        #fieldset2 {
+            font-family: "Brandon Grotesque";
+            width: 175px;
+            margin-bottom: 20px;
+        }
+
+        input, select {
+            color: #322E4C;
+            height: 30px;
+            padding-left: 5px;
+            width: 175px;
+            font-family: "Brandon Grotesque";
+            border-radius: 7px;
+        }
+
+        #prix1, #prix2{
+            width: 165px;
+            height: 25px;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            margin-top: 20px;
+            color: white;
+            background-color: #C74545;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 11px;
+            border: 10px;
+            font-family: "Brandon Grotesque";
+            position: relative;
+            left: 25px;
+        }
+
+        button:hover {
+            background-color: #ac3b3b;
+            color: ;
+        }
+
+        #result {
+            color: #ead01e;
+        }
+    	</style>
+
+      
+
+    </head>
+
+
+
+    <body>
+
+    <a href="beerdrinker.html"><img src="titlegirl.png" title="Beer Drinker"></img></a>
+            <form id="formulaire">
+            <fieldset id="fieldset1">
+                <legend>n° 1</legend>
+                <p>
+                    <label for="degre1">Bière :</label><br />
+                    <select name="degre1" id="degre1">
+
+                        <option value="1664">1664</option>
+                        <option value="affligem">Affligem</option>
+                        <option value="barbar">Barbãr</option>
+                        <option value="namur">Blanche de Namur</option>
+                        <option value="bud">Budweiser</option>
+                        <option value="bush">Bush ambrée</option>
+                        <option value="campus">Campus</option>
+                        <option value="carlsberg">Carlsberg</option>
+                        <option value="carolus">Carolus</option>
+                        <option value="chimayTriple">Chimay Triple</option>
+                        <option value="chouffe">Chouffe</option>
+                        <option value="corona">Corona</option>
+                        <option value="cuvee">Cuvée des Trolls</option>
+                        <option value="duvel">Duvel</option>
+                        <option value="goudale">Goudale</option>
+                        <option value="grimBlonde">Grimbergen blonde</option>
+                        <option value="grimBlanche">Grimbergen blanche</option>
+                        <option value="grimAmbree">Grimbergen ambrée</option>
+                        <option value="grolsch">Grolsch</option>
+                        <option value="heineken">Heineken</option>
+                        <option value="hoegaarden">Hoegaarden</option>
+                        <option value="jupiler">Jupiler</option>
+                        <option value="karmeliet">Tripel Karmeliet</option>
+                        <option value="kro">Kronenbourg</option>
+                        <option value="kroTigre">Kronenbourg Tigre Bock</option>
+                        <option value="leffeBlonde">Leffe blonde</option>
+                        <option value="leffeBrune">Leffe brune</option>
+                        <option value="lupulus">Lupulus</option>
+                        <option value="pelforthBlonde">Pelforth blonde</option>
+                        <option value="pelforthAmbree">Pelforth ambrée</option>
+                        <option value="rinceCochon">Rince Cochon</option>
+                        <option value="rocherfort6">Rochefort 6</option>
+                        <option value="rocherfort8">Rochefort 8</option>
+                        <option value="rocherfort10">Rochefort 10</option>
+                        <option value="saisonDupont">Saison Dupont</option>
+                        <option value="stella">Stella Artois</option>
+
+                    </select><br /><br />
+
+
+                    <label for="contenance1">Contenance :</label>
+                    <select name="contenance1" id="contenance1">
+                        <option value="25">Demi (25cl)</option>
+                        <option value="33">Bouteille (33cl)</option>
+                        <option value="50">Pinte (50cl)</option>
+                        <option value="75">Bouteille (75cl)</option>
+                        <option value="100">Pichet (1L)</option>
+                        <option value="150">Grand pichet (1.5L)</option>
+                    </select><br /><br />
+
+                    <label for="prix1">Prix :</label><br />
+                    <input type="text" name="prix1" id="prix1" placeholder=" €" autofocus /><br />
+                </p>
+            </fieldset>
+
+            <fieldset id="fieldset2">
+                <legend>n° 2</legend>
+                <p>
+                    <label for="degre2">Bière :</label><br />
+                    <select name="degre2" id="degre2">
+
+                        <option value="1664">1664</option>
+                        <option value="affligem">Affligem</option>
+                        <option value="barbar">Barbãr</option>
+                        <option value="namur">Blanche de Namur</option>
+                        <option value="bud">Budweiser</option>
+                        <option value="bush">Bush ambrée</option>
+                        <option value="campus">Campus</option>
+                        <option value="carlsberg">Carlsberg</option>
+                        <option value="carolus">Carolus</option>
+                        <option value="chimayTriple">Chimay Triple</option>
+                        <option value="chouffe">Chouffe</option>
+                        <option value="corona">Corona</option>
+                        <option value="cuvee">Cuvée des Trolls</option>
+                        <option value="duvel">Duvel</option>
+                        <option value="goudale">Goudale</option>
+                        <option value="grimBlonde">Grimbergen blonde</option>
+                        <option value="grimBlanche">Grimbergen blanche</option>
+                        <option value="grimAmbree">Grimbergen ambrée</option>
+                        <option value="grolsch">Grolsch</option>
+                        <option value="heineken">Heineken</option>
+                        <option value="hoegaarden">Hoegaarden</option>
+                        <option value="jupiler">Jupiler</option>
+                        <option value="karmeliet">Tripel Karmeliet</option>
+                        <option value="kro">Kronenbourg</option>
+                        <option value="kroTigre">Kronenbourg Tigre Bock</option>
+                        <option value="leffeBlonde">Leffe blonde</option>
+                        <option value="leffeBrune">Leffe brune</option>
+                        <option value="lupulus">Lupulus</option>
+                        <option value="pelforthBlonde">Pelforth blonde</option>
+                        <option value="pelforthAmbree">Pelforth ambrée</option>
+                        <option value="rinceCochon">Rince Cochon</option>
+                        <option value="rocherfort6">Rochefort 6</option>
+                        <option value="rocherfort8">Rochefort 8</option>
+                        <option value="rocherfort10">Rochefort 10</option>
+                        <option value="saisonDupont">Saison Dupont</option>
+                        <option value="stella">Stella Artois</option>
+
+                    </select><br /><br />
+
+
+                    <label for="contenance2">Contenance :</label>
+                    <select name="contenance2" id="contenance2">
+                        <option value="25">Demi (25cl)</option>
+                        <option value="33">Bouteille (33cl)</option>
+                        <option value="50">Pinte (50cl)</option>
+                        <option value="75">Bouteille (75cl)</option>
+                        <option value="100">Pichet (1L)</option>
+                        <option value="150">Grand pichet (1.5L)</option>
+                    </select><br /><br />
+
+                    <label for="prix2">Prix :</label><br />
+                    <input type="text" id="prix2" placeholder=" €" /><br />
+                </p>
+            </fieldset>
+            </form>
+            <button id="button" class="btn btn-success">DÉCAPSULER !</button>
+    <script src="beerjs.js"></script>
+	
+    </body>
+
+</html>
