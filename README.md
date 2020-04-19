@@ -1,6 +1,6 @@
 # Beer Drinker
 ## A not very corporate web app
-### Developed in JavaScript
+### Developed in JavaScript in 2016
 
 Picture that:    
 
